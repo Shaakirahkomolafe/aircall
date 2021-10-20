@@ -1,0 +1,120 @@
+.activities {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.activities:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,#f5f5f5,#f5f5f5);
+}
+
+.activities:nth-of-type(2) {
+  border-top: 1px solid#e8e8e8;
+  margin-top: 10px;
+}
+
+.activityIcon {
+  margin-right: 10px;
+}
+
+.activityTime {
+  margin-left: auto;
+  color: #a9a9a9;
+}
+
+.activityItem p {
+  margin-bottom: 5px;
+}
+
+.activityFrom {
+  font-weight: bold;
+  font-size: 14px;
+  color: #495057;
+}
+
+.activityItem span {
+  font-size: 10px;
+  color: #a9a9a9;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: right;
+  margin-top: 20px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  color: #495057;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 46%);
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px 0;
+  padding: 11px 8px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.emptyCall {
+  text-align: center;
+  margin-top: 70px;
+  color: #a9a9a9;
+  font-size: 16px;
+}
+
+.loader {
+  position: fixed;
+  top: 36%;
+  left: 46%;
+}   
+
+.callDetail  {
+  margin-top: 20px;
+}
+
+.detailDate {
+  margin-top: 10px;
+}
+
+.detailName {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+.detailVia {
+  color: #a9a9a9;
+  text-align: center;
+}
+
+.detailArchiveButton {
+  margin-top: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  display: block;
+}
+
+.detailCard {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 6%);
+  color: #616161;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.callType {
+  margin-right: 5px;
+}
