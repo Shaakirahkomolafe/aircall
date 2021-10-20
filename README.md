@@ -12,7 +12,7 @@ Basically,
 To begin installation, clone this repository.
 
 ### Server Side
-The API is hosted on Heroku and can be found at "https://aircall-job.herokuapp.com/activities/"
+The API is hosted on Heroku and can be found at https://aircall-job.herokuapp.com/
 
 ### Client Side Installation
 Clone the repository
@@ -25,6 +25,6 @@ $ yarn test //To run client tests
 
 ### Todos
 - Add component tests
-- 
+
 ### Netlify
 Live deployment running on https://speer-aircall.netlify.app/
